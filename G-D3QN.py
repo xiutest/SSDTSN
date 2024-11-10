@@ -349,7 +349,7 @@ if __name__ == "__main__":
             f.write(str(seed))
         env = NetworkEnv(seed=seed)
         env.plot_network_topology(output_dir)
-        num_episodes = 1000
+        num_episodes = 6000
         num_tests = 6
         rewards_per_weight_pair = {}
         delays_per_weight_pair = {}
